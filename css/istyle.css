@@ -7,9 +7,7 @@
 .text-uppercase,
 .text-uppercase:hover,
 .font-weight-bold,
-a:hover
-.footer, 
-a,
+a:hover .footer, a,
 .gal{
     color: #e77c70;
 }
@@ -53,6 +51,10 @@ a:hover{
 p, li, a, body{
     font-size: 1.2rem;
     line-height: 2.1em;
+}
+
+.footer li, .footer a{
+    font-size: 0.8rem;
 }
 
 
@@ -99,7 +101,6 @@ p, li, a, body{
 
 .aboutMain h4, .t4{
     font-size: 3rem;
-    color: #F79489;
 }
 
 .aboutMain hr, .at4{
@@ -147,6 +148,10 @@ p, li, a, body{
 
 .galleryCont a img{
     margin: 10px;
+}
+
+.mainGal h1{
+    color: black;
 }
 
 
@@ -309,10 +314,18 @@ iframe, .contactHR{
 
 }
 
-@media (max-width: 651px){
-    .footer li, .footer li a{
-        font-size: 14px;
+@media (max-width: 947px){
+    .contH h4{
+        text-align: center;
     }
+
+    .contH hr{
+        width: 120px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 651px){
 
     .aboutMain img{
         width: 100%;
@@ -370,7 +383,7 @@ iframe, .contactHR{
         font-size: 10.5vw;
     }
 
-    .aboutMain h4{
+    .aboutMain h4, .accompl h4, .mainCot h4, .contH h4{
         font-size: 2.4rem;
     }
 
@@ -378,7 +391,7 @@ iframe, .contactHR{
         padding-top: 30px;
         padding-bottom: 20px;
     }
-	
+
     .cardTT {
         height: auto;
     }
