@@ -88,43 +88,45 @@ p, li, a, body{
 
 /* About page */
 .aboutMain{
-    margin: 0 25px 20px 25px;
+    padding: 25px;
 }
 
 .aboutMain img{
     float: left;
-    height: 700px;
-    max-width: 550px;
+    width: 500px;
+    padding: 0 20px 0 0;
 }
 
-.t4{
-    margin-left: 15px;
-    margin-top: 0;
-    line-height: 80px;
-    border-bottom: solid #F79489 2.5px;
-    width: 450px;
+.aboutMain h4, .t4{
+    font-size: 3rem;
+    color: #F79489;
+}
+
+.aboutMain hr, .at4{
+    background:#e77c70;
+    padding-bottom: 2px;
+    width: 350px;
+}
+
+.at4{
+    margin-left: 0;
+}
+
+.aboutMain hr{
+    margin-left: 380px;
+}
+
+.aboutMain p{
+    padding-bottom: 10px;
+    font-size: 1.2em;
 }
 
 .timeline li{
-    list-style-type: circle
+    list-style-type: circle;
 }
 
-h4{
-    color: #F8AFA6;
-}
-
-hr{
-    background: #F79489;
-}
-
-.w-100 hr{
-    border-bottom: 3.5px solid #F79489;
-    margin-left: 610px;
-    width: 300px;
-}
-
-.aboutMain h4{
-    border-bottom: 3px solid #F79489;
+.accompl{
+    margin: 0 20px;
 }
 
 
@@ -188,21 +190,38 @@ iframe, .contactHR{
     margin-right: 0;
 }
 
+.cardTT {
+    height: 470px;
+}
+
+.lft{
+    font-size: 2px;
+}
+
 /* < 400px */
 /* < 800px */
 @media (max-width: 951px){
     .aboutMain img{
         float: none;
-        height: 720px;
-        width: 600px;
         display: block;
         margin: 0 auto;
         padding-top: 25px;
+        padding-right: 0;
     }
 
-    .aboutMain h4{
+    .aboutMain h4, .t4{
         margin-top: 25px;
         text-align: center;
+    }
+
+    .aboutMain hr, .at4{
+        text-align: left;
+        width: 150px;
+        margin-left: auto;
+    }
+
+    .timeline{
+        margin-right: 50px;
     }
 }
 
@@ -242,6 +261,7 @@ iframe, .contactHR{
     .row p{
         font-size: 1.15rem;
     }
+    
 }
 
 @media (min-width: 1780px){
@@ -297,6 +317,7 @@ iframe, .contactHR{
     .aboutMain img{
         width: 100%;
         height: 90%;
+        padding-right: 0;
     }
 
     .map-responsive iframe{
@@ -355,10 +376,6 @@ iframe, .contactHR{
 
     .row h4{
         font-size: 10.5vw;
-    }
-
-    .t4{
-        width: 90%;
     }
 
     .aboutMain h4{
