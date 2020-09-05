@@ -330,10 +330,6 @@ iframe, .contactHR{
         font-size: 0.9rem;
     }
 
-    .display-4 {
-        font-size: 2rem;
-    }
-
     .card-body p{
         font-size: 1rem;
         line-height: 1.5rem;
@@ -354,12 +350,8 @@ iframe, .contactHR{
     }
 
     .timeline{
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .timeline li{
-        margin-left: 0;
+        margin: 0 10px;
+        padding: 0;
     }
 
     .footer li, .footer li a{
@@ -379,8 +371,7 @@ iframe, .contactHR{
     }
 
     .aboutMain h4{
-        width: 200px;
-        margin-left: 90px;
+        font-size: 2.4rem;
     }
 
     .hidPic{
