@@ -378,4 +378,8 @@ iframe, .contactHR{
         padding-top: 30px;
         padding-bottom: 20px;
     }
+	
+    .cardTT {
+        height: auto;
+    }
 }
