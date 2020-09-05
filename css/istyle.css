@@ -140,6 +140,7 @@ p, li, a, body{
 .gal{
     text-align: center;
     font-weight: 150;
+    font-size: 3rem;
 }
 
 .galleryCont{
@@ -383,7 +384,7 @@ iframe, .contactHR{
         font-size: 10.5vw;
     }
 
-    .aboutMain h4, .accompl h4, .mainCot h4, .contH h4{
+    .aboutMain h4, .accompl h4, .mainCot h4, .contH h4, .gal{
         font-size: 2.4rem;
     }
 
