@@ -75,10 +75,12 @@ p, li, a, body{
 
 .t1{
     width: 30px;
+    background: #F79489;
 }
 
 .t2{
     width: 70px;
+    background: #F79489;
 }
 
 .card-body p{
@@ -172,6 +174,7 @@ p, li, a, body{
     width:80px;
     margin-top: 0;
     border-bottom: 2.2px solid #F79489;
+    background: #F79489;
 }
 
 .contact-card p{
